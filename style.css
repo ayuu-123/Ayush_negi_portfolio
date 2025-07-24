@@ -1,0 +1,341 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.sidebar{
+   /* background-color: red;*/
+    width: 20vw;
+     font-family: "Libre Baskerville", serif;
+         height: 100vh;
+          background-color: rgb(166, 165, 165);
+
+
+}
+
+.sidebar nav {
+    padding: 32px;
+
+
+}
+
+
+.sidebar nav li{
+    list-style-type: none;
+    font-size: 15px;
+    padding-top: 33px;
+   
+    
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+.main{
+   /* background-color: yellow;*/
+    width: 80vw;
+        padding-left: 23px;
+
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /*background-color: green;*/
+    height: 58vh;
+    width: 80vw;
+        margin:  144px auto;
+  
+    display: flex;
+        justify-content: space-around;
+        
+}
+.devimg img{
+        height: 58vh;
+    
+}
+.devinfo{
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hello{font-size: 50px;
+    
+ 
+
+}
+.name{font-size: 50px;
+    font-style: bold;
+}
+.about{font-size: 25px;
+}
+.moreabout{ font-size: 20px;
+        margin-top: 23px;
+    
+
+}
+.buttons {
+    margin-top: 34px;
+       
+}
+.buttons button{
+    border-radius: 50px;
+    padding: 5px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4px;
+    cursor: pointer;
+}
+.btn-sm button{
+    width: 8vw;
+    border-radius: 50px;
+        width: 6vw;
+    border-radius: 50px;
+    padding: 7px;
+    background-color:dodgerblue;
+        font-size: 18px;
+    color: white;
+}
+.btn-sm button:hover{
+     background-color: white;
+    color: dodgerblue;
+
+}
+
+      
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
+.contactform{
+    font-family: "Libre Baskerville", serif;
+    
+    padding: 144px;
+
+}
+.contactform h1{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+    text-align: left;
+   
+}
+   .contactform form div{
+    padding: 10px 0;
+    display: flex;
+
+    flex-direction: column;
+
+   }
+   .contactform form div div{
+    font-size: 10px;
+    color: dodgerblue;
+ 
+
+   }
+   .contactform form div input{
+        width: 16vw;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+   .blog p{
+        margin-top: 10px;
+    margin-bottom: 10px;
+   }
+   .blog h3{
+        margin-top: 10px;
+   }
+   .blog-posts{
+      font-family: "Libre Baskerville", serif;
+   }
+   .blog h2{
+        font-size: 40px;
+
+   }
+   .blogcontsiner{
+    margin-left: 10px;
+   }
+   .card{
+     font-family: "Libre Baskerville", serif;
+   
+
+   }
+   .intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.intro-content {
+  max-width: 800px;
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.intro h1 span {
+  color: #007BFF;
+}
+
+.intro p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #007BFF;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+/* Blog Section Styling */
+.blog {
+  padding: 60px 20px;
+  background-color: #f8fafc;
+  text-align: center;
+}
+
+.blog h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.blog p {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 40px;
+}
+
+/* Blog Posts Grid */
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Individual Blog Post Card */
+.post {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.post h3 {
+  font-size: 1.3rem;
+  color: #1d4ed8;
+  margin-bottom: 10px;
+}
+
+.post p {
+  color: #374151;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+/* Read More Link */
+.post a {
+  text-decoration: none;
+  color: #1d4ed8;
+  font-weight: 500;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.post a:hover {
+  color: #0f172a;
+  text-decoration: underline;
+}
+/* Services Section */
+.services {
+  padding: 60px 20px;
+  background-color: #f1f5f9;
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #1f2937;
+}
+
+/* Card Layout */
+.service-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto 40px auto;
+}
+
+/* Individual Card */
+.card {
+  background-color: #ffffff;
+  padding: 25px 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  font-size: 1.3rem;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+/* Contact Button */
+.btn {
+  display: inline-block;
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #1e3a8a;
+}
+
